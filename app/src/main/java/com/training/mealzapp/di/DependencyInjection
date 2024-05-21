@@ -1,0 +1,18 @@
+draw -> Dependency asyclic graph -> DAG
+        Directed asyclick graph
+
+                            View
+                             |
+                          ViewModel
+                             |
+                          UseCase           ->>    UseCaseModule
+                             |
+                          Repository        ->>    RepoModule
+                             |
+                DAO             ApiService  ->>    ApiServiceModule
+                                   |
+                                Retrofit
+                                   |
+                                OkHttp
+
+
